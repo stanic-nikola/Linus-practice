@@ -10,8 +10,9 @@
 
 <body>
   <h1>Gemüse und Früchte</h1>
+  <h6>L1</h6>
 
-  <ul id="gemuese">
+  <ol id="gemuese">
     <li class="kohlgemuese">Wirsing</li>
     <li class="kohlgemuese">Spitzkohl</li>
     <li class="blattsalate">Feldsalat</li>
@@ -29,6 +30,14 @@
        Anforderungen: action="/login", method="post",
        username (text), password (password), verbundene Labels,
        Button zum Absenden. -->
+       <form action="/login" method="post">
+        <label for="username">Benutzername</label>
+        <input id="username" name="username" type="text">
+        <label for="password">Passwort</label>
+        <input id="password" name="password" type="password">
+        <input type="email">
+        <button type="submit">Anmelden</button>
+        </form>
 </body>
 
 </html>
