@@ -1,43 +1,41 @@
 <!doctype html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Engineering – Session 01</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Engineering – Session 01</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <h1>Gemüse und Früchte</h1>
+    <h6>L1</h6>
 
-<body>
-  <h1>Gemüse und Früchte</h1>
-  <h6>L1</h6>
+    <ul id="gemuese">
+      <li class="kohlgemuese">Wirsing</li>
+      <li class="kohlgemuese">Spitzkohl</li>
+      <li class="blattsalate">Feldsalat</li>
+    </ul>
 
-  <ol id="gemuese">
-    <li class="kohlgemuese">Wirsing</li>
-    <li class="kohlgemuese">Spitzkohl</li>
-    <li class="blattsalate">Feldsalat</li>
-  </ul>
+    <ul id="obst">
+      <li class="steinobst">Sauerkirsche</li>
+      <li class="steinobst">Pflaume</li>
+      <li class="kernobst">Birne</li>
+      <li class="beerenobst">Johannisbeere</li>
+      <li class="schalenobst">Erdnuss</li>
+    </ul>
 
-  <ul id="obst">
-    <li class="steinobst">Sauerkirsche</li>
-    <li class="steinobst">Pflaume</li>
-    <li class="kernobst">Birne</li>
-    <li class="beerenobst">Johannisbeere</li>
-    <li class="schalenobst">Erdnuss</li>
-  </ul>
-
-  <!-- LIVE TASK A: Ergänze hier ein Login-Formular.
+    <!-- LIVE TASK A: Ergänze hier ein Login-Formular.
        Anforderungen: action="/login", method="post",
        username (text), password (password), verbundene Labels,
        Button zum Absenden. -->
-       <form action="/login" method="post">
-        <label for="username">Benutzername</label>
-        <input id="username" name="username" type="text">
-        <label for="password">Passwort</label>
-        <input id="password" name="password" type="password">
-        <input type="email">
-        <button type="submit">Anmelden</button>
-        </form>
-</body>
-
+    <form action="/login" method="post">
+      <label for="username">Benutzername</label>
+      <input id="username" name="username" type="text" />
+      <label for="password">Passwort</label>
+      <input id="password" name="password" type="password" />
+      <input type="email" />
+      <button type="submit">Anmelden</button>
+    </form>
+  </body>
 </html>
