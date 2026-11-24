@@ -1,5 +1,11 @@
-/* LIVE TASK B – Keine Lösungen enthalten.
-   1. Hintergrund der Gemüse-Liste: green
-   2. Alle Einträge der Klassen steinobst und beerenobst: color red
-   3. Alle li unterhalb von #obst: padding 5px
-*/
+#gemuese {
+  background-color: green;
+}
+
+.steinobst .beerenobst {
+  color: red;
+}
+
+#obst ul {
+  padding: 5px;
+}

@@ -1,1 +1,19 @@
+# macOS
 .DS_Store
+
+# Editor-Einstellungen (nur für dich, enthalten lokale Pfade)
+.vscode/
+settings.json
+
+# Claude
+.claude/
+
+# Geheimnisse
+.env
+.env.*
+*.key
+*.pem
+
+# Abhängigkeiten und Logs
+node_modules/
+*.log
